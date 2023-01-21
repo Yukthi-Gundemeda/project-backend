@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 //Database Connection
 mongoose
   .connect(
- "mongodb+srv://YukthiGundemeda:yukthi@cluster0.jlajnjk.mongodb.net/demo?retryWrites=true&w=majority",
+ "mongodb+srv://YukthiGundemeda:yukthi@cluster0.jlajnjk.mongodb.net/project?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
